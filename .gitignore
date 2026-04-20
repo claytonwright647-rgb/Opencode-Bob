@@ -1,0 +1,20 @@
+# Opencode Bob - Git Ignore
+
+# Memory & State (local only)
+memory/
+memory-*/
+parallel-results/
+screenshots/
+time-machine/
+
+# Secrets
+*.env
+*.json
+!Skills.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+config-local.txt
